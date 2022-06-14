@@ -1,0 +1,114 @@
+.loginContainer {
+  background: linear-gradient(rgba(0, 0, 0, 0.685), rgba(255, 255, 255, 0.46)),
+    url("https://cdn.pixabay.com/photo/2018/04/05/14/09/sunflowers-3292932_960_720.jpg");
+  width: 100vw;
+  height: calc(100vh - 4rem);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.loginPanelWrapper {
+  width: 30%;
+  position: absolute;
+  left: 60%;
+  top: 20%;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.loginTitle {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-family: var(--varela);
+  font-size: 2rem;
+}
+
+.loginForm {
+  margin-top: 1rem;
+}
+.loginInput {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: transparent;
+  padding: 0.3rem 0rem;
+  font-size: 1.4rem;
+  outline: none;
+  border: none;
+  font-family: var(--josefin);
+  border: 1px solid rgba(247, 245, 245, 0.514);
+}
+
+.loginInputLabel {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-family: var(--josefin);
+  color: white;
+  padding-top: 1rem;
+  padding-bottom: 0.3rem;
+}
+.loginbtnWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+
+.loginbtn {
+  font-size: 1rem;
+  font-family: var(--lora);
+  padding: 0.5rem 1rem;
+  color: white;
+  outline: none;
+  border: white 1px solid;
+  background: transparent;
+  cursor: pointer;
+}
+
+.loginbtn:active {
+  background-color: #ffffff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  color: #666;
+}
+
+.loginRegisterbtn {
+  width: 30%;
+  position: absolute;
+  left: 60%;
+  top: 70%;
+}
+.loginRegisterbtn span {
+  color: #fff;
+  font-family: var(--varelaRound);
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.loginRegisterbtn button {
+  background: transparent;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  font-family: var(--lora);
+  color: greenyellow;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.loginbtn:disabled {
+  cursor: not-allowed;
+}

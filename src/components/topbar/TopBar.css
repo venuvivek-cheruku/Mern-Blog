@@ -1,0 +1,71 @@
+.top {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  z-index: 999;
+  font-family: var(--josefin);
+}
+
+.topLeft,
+.topRight {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topCenter {
+  flex: 6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topIcon {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: #666;
+  cursor: pointer;
+}
+.topIcon:hover {
+  color: black;
+}
+
+.topImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topCenterList {
+  display: flex;
+  list-style: none;
+  width: 100%;
+  justify-content: center;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.topCenterList li {
+  margin-left: 2rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.topCenterList li:hover,
+.topRight .link:hover {
+  color: black;
+}
+
+.topRight .link {
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: #666;
+}
